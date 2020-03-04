@@ -1,0 +1,84 @@
+<!DOCTTPE html>
+<html>
+<title>
+I know I m genius.
+</title>
+<head>
+<link href="mycss.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="p1">
+Let's Play a GAME
+</div><br>
+<img src="C:\Users\SUVRADEEP\Desktop\wer.jpg" />
+<div class="p2">
+The game will be between us. It will start from 1. 
+It should be 1 or 2 numbers at a time
+and will be followed 
+at every step maintaining proper numeric sequence. If you want to choose two numbers at a time then provide the last one in the box. 
+The player who will  say 20 along the sequence,
+ will be the WINNER...
+</div><br>
+<div class="number">
+Come on, Type your number :: 
+<input type="text" id="num1">
+<button onclick="cal()">Click for my turn.</button><br>
+See, It is my number ::
+</div>
+<center>
+<h1 id="ans"> </h1>
+</center>
+<script type="text/javascript">
+function cal(){
+var n1 = document.getElementById("num1").value;
+switch(n1){
+	case '1': var x = 2;
+	break;
+	case '2': var x = 4;
+	break;
+	case '3': var x = 5;
+	break;
+	case '4': var x = 5;
+	break;
+	case '5': var x = 6;
+	break;
+	case '6': var x = 8;
+	break;
+	case '7': var x = 8;
+	break;
+	case '8': var x = 10;
+	break;
+	case '9': var x = 11;
+	break;
+	case '10': var x = 11;
+	break;
+	case '11': var x = 13;
+	break;
+	case '12': var x = 14;
+	break;
+	case '13': var x = 14;
+	break;
+	case '14': var x = 15;
+	break;
+	case '15': var x = 17;
+	break;
+	case '16': var x = 17;
+	break;
+	case '17': var x = 18;
+	break;
+	case '18': var x = "Ohh sorry. It's " + 20 + " I win, refresh your page and try again.";
+	break;
+	case '19': var x = "It's " + 20 + " I win, refresh 		your page and try again.";
+	break;
+	case '20': var x = "Congratulation, You are smart.";
+}
+document.getElementById("ans").innerHTML= x;
+}
+</script><br>
+
+<div class="myname">
+Suvradeep Paria
+</div>
+
+</body>
+</html>

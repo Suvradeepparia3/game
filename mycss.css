@@ -1,0 +1,38 @@
+.p1{
+	border-bottom:5px solid red;
+  text-align:center;
+  font-size:50px;
+  font-family:algerian;
+  background-color:lightgray;
+}
+.p2{
+    font-size:20px;
+   font-family:verdana;
+	width:600px;
+	height:300px;
+	font-size:25px;
+	}
+img{
+	width:250px;
+	height:250px;
+	border-radius:30px;
+	float:right;
+}
+img:hover{
+	box-shadow:0 0 12px 5px rgba(100,14,18,0.5);
+}
+body{
+	background-color:lightblue;
+}
+.number{
+	padding:20px 0px 0px 200px;
+	font-size:25px;
+}
+.myname{
+	width:250px;
+	height:70px;
+	padding:20px 0px 0px 200px;
+	font-family:algerian;
+	font-size: 25px;
+	float:right;
+}
